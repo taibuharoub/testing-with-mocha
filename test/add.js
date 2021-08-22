@@ -4,7 +4,7 @@ it("should add numbers correctly", function () {
   const num1 = 10;
   const num2 = 8;
 
-  expect(num1 + num2).to.equal(20);
+  expect(num1 + num2).to.equal(18);
 });
 
 it("should not give a result of 6", function () {
