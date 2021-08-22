@@ -11,5 +11,4 @@
 it("double done", function (done) {
   //calling `done()` twice is an error
   setImmediate(done);
-  setImmediate(done);
 });
