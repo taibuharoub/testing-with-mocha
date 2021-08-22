@@ -1,10 +1,10 @@
 const expect = require("chai").expect;
 
 it("should add numbers correctly", function () {
-  const num1 = 4;
-  const num2 = 4;
+  const num1 = 10;
+  const num2 = 10;
 
-  expect(num1 + num2).to.equal(8);
+  expect(num1 + num2).to.equal(20);
 });
 
 it("should not give a result of 6", function () {
